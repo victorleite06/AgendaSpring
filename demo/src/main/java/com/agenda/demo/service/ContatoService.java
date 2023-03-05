@@ -23,4 +23,9 @@ public class ContatoService {
     public Contatos salvarContato(Contatos contato) {
         return this.contatoRepository.saveAndFlush(contato);
     }
+
+    public Integer deletarContato(Integer idContato) {
+        this.contatoRepository.deleteById(idContato);
+        return idContato;
+    }
 }
