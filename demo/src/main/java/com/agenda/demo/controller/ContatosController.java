@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.agenda.demo.model.Contatos;
 import com.agenda.demo.service.ContatoService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/contato")
 public class ContatosController {
