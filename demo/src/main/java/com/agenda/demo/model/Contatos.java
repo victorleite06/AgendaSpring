@@ -33,5 +33,5 @@ public class Contatos implements Serializable {
 	private String endereco;
 
 	@Column(name="TELEFONE")
-	private Integer telefone;
+	private Long telefone;
 }
